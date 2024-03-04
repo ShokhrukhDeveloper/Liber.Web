@@ -1,6 +1,6 @@
 ﻿namespace Liber.Api.Entities;
 
-public class Book
+public class Book : EntityBase
 {
     public string? Description { get; set; }
     public string Name { get; set; }
