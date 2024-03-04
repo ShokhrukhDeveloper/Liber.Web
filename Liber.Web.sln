@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liber.Web", "Liber.Web\Liber.Web.csproj", "{4203A86C-D411-4C42-9020-599ABA8E7264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liber.Api", "Liber.Api\Liber.Api.csproj", "{7F154E77-8CB4-42E5-B3FD-46C4E587E21C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liber.Web.Shared", "Liber.Web.Shared\Liber.Web.Shared.csproj", "{43F4DEFF-185A-47B9-9008-EBBBA5C6B204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4203A86C-D411-4C42-9020-599ABA8E7264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4203A86C-D411-4C42-9020-599ABA8E7264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4203A86C-D411-4C42-9020-599ABA8E7264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4203A86C-D411-4C42-9020-599ABA8E7264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F154E77-8CB4-42E5-B3FD-46C4E587E21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F154E77-8CB4-42E5-B3FD-46C4E587E21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F154E77-8CB4-42E5-B3FD-46C4E587E21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F154E77-8CB4-42E5-B3FD-46C4E587E21C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F4DEFF-185A-47B9-9008-EBBBA5C6B204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F4DEFF-185A-47B9-9008-EBBBA5C6B204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F4DEFF-185A-47B9-9008-EBBBA5C6B204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F4DEFF-185A-47B9-9008-EBBBA5C6B204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
