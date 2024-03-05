@@ -1,0 +1,21 @@
+﻿@page "/cubcategories/{id}"
+ @attribute [Route("/cubcategories")]
+@using Liber.Web.Shared.Category
+<h1>@id</h1>
+@if (subCategoriesList is null)
+{
+  <center>
+   <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+     <span class="visually-hidden">Loading...</span>
+   </div> 
+  </center>  
+}
+else
+{
+    foreach (SubCategory subCategory in subCategoriesList)
+    {
+        <Button Color="ButtonColor.Primary"> @subCategory.Name </Button>
+    }
+}
+
+
